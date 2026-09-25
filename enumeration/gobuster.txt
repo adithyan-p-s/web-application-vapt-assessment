@@ -1,0 +1,220 @@
+gobuster dir -u http://127.0.0.1:3000 -w /usr/share/wordlists/dirb/common.txt --exclude-length 9393
+===============================================================
+Gobuster v3.8
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://127.0.0.1:3000
+[+] Method:                  GET
+[+] Threads:                 10
+[+] Wordlist:                /usr/share/wordlists/dirb/common.txt
+[+] Negative Status codes:   404
+[+] Exclude Length:          9393
+[+] User Agent:              gobuster/3.8
+[+] Timeout:                 10s
+===============================================================
+Starting gobuster in directory enumeration mode
+===============================================================
+/api                  (Status: 500) [Size: 2408]
+/apis                 (Status: 500) [Size: 2410]
+/assets               (Status: 301) [Size: 156] [--> /assets/]
+/ftp                  (Status: 200) [Size: 11307]
+/media                (Status: 301) [Size: 155] [--> /media/]
+/profile              (Status: 500) [Size: 1043]
+/promotion            (Status: 200) [Size: 5863]
+/redirect             (Status: 500) [Size: 2531]
+/rest                 (Status: 500) [Size: 2410]
+/restaurants          (Status: 500) [Size: 2424]
+/restricted           (Status: 500) [Size: 2422]
+/restore              (Status: 500) [Size: 2416]
+/restored             (Status: 500) [Size: 2418]
+/robots.txt           (Status: 200) [Size: 28]
+/video                (Status: 200) [Size: 2232676]
+/Video                (Status: 200) [Size: 2232676]
+Progress: 4428 / 4613 (95.99%)[ERROR] error on word weekly: unexpected EOF
+[ERROR] error on word what: Get "http://127.0.0.1:3000/what": read tcp 127.0.0.1:48520->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word well: Get "http://127.0.0.1:3000/well": read tcp 127.0.0.1:48552->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wellcome: Get "http://127.0.0.1:3000/wellcome": read tcp 127.0.0.1:48514->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word werbung: Get "http://127.0.0.1:3000/werbung": read tcp 127.0.0.1:48476->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word whois: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word whitepaper: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word whatsnew: Get "http://127.0.0.1:3000/whatsnew": read tcp 127.0.0.1:48532->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word welcome: Get "http://127.0.0.1:3000/welcome": read tcp 127.0.0.1:48480->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wget: Get "http://127.0.0.1:3000/wget": read tcp 127.0.0.1:48504->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word white: Get "http://127.0.0.1:3000/white": read tcp 127.0.0.1:48512->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word whatnot: Get "http://127.0.0.1:3000/whatnot": read tcp 127.0.0.1:48494->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word whitepapers: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word whatever: Get "http://127.0.0.1:3000/whatever": read tcp 127.0.0.1:48546->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word why: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word who: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wifi: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word whosonline: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word widget: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word will: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wii: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wholesale: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wiki: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word win: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word win32: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wicket: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word widgets: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wide_search: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+Progress: 4447 / 4613 (96.40%)[ERROR] error on word winnt: Get "http://127.0.0.1:3000/winnt": read tcp 127.0.0.1:48742->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wishlist: Get "http://127.0.0.1:3000/wishlist": read tcp 127.0.0.1:48758->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word with: Get "http://127.0.0.1:3000/with": read tcp 127.0.0.1:48770->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wireless: Get "http://127.0.0.1:3000/wireless": read tcp 127.0.0.1:48756->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wink: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wml: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word windows: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wiz: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wolthuis: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wizmysqladmin: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wordpress: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word word: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word Windows: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word work: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word working: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word workflowtasks: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word workarea: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wizard: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word works: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word workplace: Get "http://127.0.0.1:3000/workplace": read tcp 127.0.0.1:48864->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word workshop: Get "http://127.0.0.1:3000/workshop": read tcp 127.0.0.1:48870->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word workshops: Get "http://127.0.0.1:3000/workshops": read tcp 127.0.0.1:48884->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word world: Get "http://127.0.0.1:3000/world": read tcp 127.0.0.1:48886->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word worldpayreturn: Get "http://127.0.0.1:3000/worldpayreturn": read tcp 127.0.0.1:48892->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wp-comments: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wpcallback: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-blog-header: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wpau-backup: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-atom: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-app: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-dbmanager: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-cron: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-content: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wpcontent: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-config: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-commentsrss2: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-load: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-links-opml: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-includes: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-images: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-icludes: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-feed: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-admin: Get "http://127.0.0.1:3000/wp-admin": read tcp 127.0.0.1:48928->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wow: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word worldwide: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-rss: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-register: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-rdf: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-pass: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-mail: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-login: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word writing: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-rss2: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wrap: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-trackback: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-syntax: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word ws_ftp: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word ws: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wss: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wsdl: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word ws-client: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word WS_FTP.LOG: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word WS_FTP: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wwhelp: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wusage: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wtai: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wt: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wstats: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wstat: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wwwboard: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word www3: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word www2: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word www1: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word www: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wwwroot: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wwwlog: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wwwjoin: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wysiwyg: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wwwuser: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word www-sql: Get "http://127.0.0.1:3000/www-sql": read tcp 127.0.0.1:49412->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wwwthreads: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wwwstats: Get "http://127.0.0.1:3000/wwwstats": read tcp 127.0.0.1:49430->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wwwstat: Get "http://127.0.0.1:3000/wwwstat": read tcp 127.0.0.1:49420->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wps: Get "http://127.0.0.1:3000/wps": read tcp 127.0.0.1:49130->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word X: Get "http://127.0.0.1:3000/X": read tcp 127.0.0.1:49484->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xbox: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wysiwygpro: Get "http://127.0.0.1:3000/wysiwygpro": read tcp 127.0.0.1:49466->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word x: Get "http://127.0.0.1:3000/x": read tcp 127.0.0.1:49480->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xalan: Get "http://127.0.0.1:3000/xalan": read tcp 127.0.0.1:49520->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xcache: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xajax_js: Get "http://127.0.0.1:3000/xajax_js": read tcp 127.0.0.1:49506->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xajax: Get "http://127.0.0.1:3000/xajax": read tcp 127.0.0.1:49498->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wp-signup: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word wp-settings: Get "http://127.0.0.1:3000/wp-settings": read tcp 127.0.0.1:49148->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xd_receiver: Get "http://127.0.0.1:3000/xd_receiver": read tcp 127.0.0.1:49558->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xls: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xcart: Get "http://127.0.0.1:3000/xcart": read tcp 127.0.0.1:49550->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xlogin: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xhtml: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xfer: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xmas: Get "http://127.0.0.1:3000/xmas": read tcp 127.0.0.1:49616->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xml: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xdb: Get "http://127.0.0.1:3000/xdb": read tcp 127.0.0.1:49574->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xerces: Get "http://127.0.0.1:3000/xerces": read tcp 127.0.0.1:49576->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xmlimporter: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xmlfiles: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word XML: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xmlrpc: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xmlrpc_server.php: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xmlrpc.php: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xml-rpc: Get "http://127.0.0.1:3000/xml-rpc": read tcp 127.0.0.1:49684->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xxx: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xx: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xslt: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xmlrpc_server: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xn: Get "http://127.0.0.1:3000/xn": read tcp 127.0.0.1:49734->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word xsl: Get "http://127.0.0.1:3000/xsl": read tcp 127.0.0.1:49742->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word wp: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word XXX: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xsql: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yonetim: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yonetici: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yml: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yesterday: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yearly: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word year: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word youtube: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zboard: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zap: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word z: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yui: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yt: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yshop: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xyz: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word yahoo: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word y: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zh-tw: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zh-cn: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zh_TW: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word xyzzy: Get "http://127.0.0.1:3000/xyzzy": read tcp 127.0.0.1:49798->127.0.0.1:3000: read: connection reset by peer
+[ERROR] error on word zh_CN: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zh: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zeus: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zend: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zipfiles: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zero: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zips: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zip: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zimbra: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zencart: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zoeken: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zt: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zone: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zorum: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zope: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zones: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+[ERROR] error on word zoom: server closed connection without sending any data back. Maybe you are connecting via https to on http port or vice versa?
+Progress: 4613 / 4613 (100.00%)
+===============================================================
+Finished
