@@ -113,8 +113,9 @@ Given that this affects the primary login mechanism and can lead to full adminis
 
 ## Evidence
 
-See [`screenshots/06-sql-injection-error.png`](../screenshots/06-sql-injection-error.png) and [`screenshots/07-sqli-authentication-bypass.png`](../screenshots/07-sqli-authentication-bypass.png). Authentication token values are redacted/blurred in all evidence.
+See [`03-screenshots/08-sql-injection-error.png`](03-screenshots/08-sql-injection-error.png) and [`03-screenshots/09-sqli-authentication-bypass.png`](03-screenshots/09-sqli-authentication-bypass.png).
 
+Authentication token values are redacted/blurred in all evidence.
 ## Root Cause
 
 User-supplied input from the `email` parameter appears to be concatenated directly into a SQL query rather than being handled through parameterized queries or an ORM with proper input binding. This allows attacker-controlled input to change the structure and logic of the executed SQL statement.
